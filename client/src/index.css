@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+form.login input, form.register input{
+    @apply h-10 text-center border border-gray-300 rounded-2xl;
+}
+
+form.login button, form.register button{
+    @apply h-10 bg-red-400 text-white border border-gray-300 rounded-2xl;
+}
+
+form.list-accomodation  input[type='text']{
+    @apply h-10 w-full pl-2 border border-gray-300 rounded-xl
+}
+
+form.list-accomodation> div{
+    @apply py-2
+}
+
+form.list-accomodation label{
+    @apply pl-1 text-xl flex items-center
+}
+
+form.list-accomodation label span{
+    @apply text-sm pl-4 text-gray-400
+}
+
+form.list-accomodation div.add-perks label{
+    @apply flex items-center gap-2
+}
+
+form.list-accomodation div.add-perks{
+    @apply grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-2
+}
+
+form.list-accomodation div.add-perks label span{
+    @apply -ml-4 text-black
+}
+
+form.list-accomodation div.timings label{
+    @apply text-sm
+}
