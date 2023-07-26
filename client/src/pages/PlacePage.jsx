@@ -25,7 +25,7 @@ export default function PlacePage(){
     
 
     return(
-        <div className="mt-4 bg-gray-100 -mx-6 px-8 pt-8">
+        <div className="mt-4 bg-gray-100 px-8 pt-8">
             <h1 className="text-2xl">{place.title}</h1>
             <a className="flex gap-1 my-2 block font-semibold underline" target="_blank" href={"https://maps.google.com/?q="+place.address}>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
@@ -48,7 +48,7 @@ export default function PlacePage(){
                 </div>
                 <BookingWidget place={place}/>
             </div>
-            <div className="bg-white -mx-8 px-8 py-2 border-t">
+            <div className="bg-white px-8 py-2 border-t">
                 <div className="mt-6">
                     <h2 className="font-semibold text-2xl">Extra info</h2>
                 </div>

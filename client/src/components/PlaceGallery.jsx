@@ -31,7 +31,7 @@ export default function PlaceGallery({place}){
                 <div>
                     {place.photos?.[0] &&(
                         <div>
-                            <img onClick={()=> setShowAllPhotos(true)} className="cursor-pointer aspect-square object-cover" src={"http://localhost:4000/uploads/"+place.photos[0]} alt="" />
+                            <img onClick={()=> setShowAllPhotos(true)} className="cursor-pointer aspect-square object-cover min-w-full" src={"http://localhost:4000/uploads/"+place.photos[0]} alt="" />
                         </div>
                     )}
                 </div>
